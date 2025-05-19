@@ -38,7 +38,8 @@ WRN-CIFAR10-Reproduction-/
 
 ```bash
 git clone https://github.com/psimba1995/WRN-CIFAR10-Reproduction-.git
-cd WRN-CIFAR10-Reproduction-
+cd WRN-CIFAR10-Reproduction-\
+```
 
 
 
