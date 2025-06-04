@@ -16,18 +16,29 @@ The key idea is to improve on traditional ResNets by **increasing width (channel
 
 ---
 
-## Project Structure
 
+## 📂 Project Structure
+
+The repository is organized as follows:
+
+```
 WRN-CIFAR10-Reproduction-/
 │
-├── notebooks/
-│ ├── 01_data_preprocessing_cynthia.ipynb
-│ ├── 02_model_building_paida.ipynb
-│ ├── 03_training_paida.ipynb
-│ └── 04_evaluation_zaid.ipynb
-├── README.md
-└── .gitignore
+├── notebooks/                   # Jupyter notebooks for various stages of the project
+│   ├── 01_data_preprocessing_cynthia.ipynb  # Data preprocessing
+│   ├── 02_model_building_paida.ipynb       # Model building
+│   ├── 03_training_paida.ipynb             # Model training
+│   └── 04_evaluation_zaid.ipynb            # Model evaluation
+│
+├── README.md                    # Project overview and instructions
+├── requirements.txt             # Python dependencies for reproducibility
+├── .gitignore                   # Files and folders to ignore in the repository
+└── .gitattributes               # Git configuration for the repository
+```
 
+### 📝 Notes
+- Each `.ipynb` notebook corresponds to a specific step in the process: preprocessing, model building, training, and evaluation.
+- All results, including training metrics and plots, are saved and displayed in the respective notebooks.
 
 ## ⚙️ Setup Instructions (Reproducibility)
 
