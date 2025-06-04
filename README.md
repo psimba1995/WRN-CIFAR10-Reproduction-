@@ -42,7 +42,7 @@ WRN-CIFAR10-Reproduction-/
 
 ## ⚙️ Setup Instructions (Reproducibility)
 
-> ✅ Tested on macOS and Linux.  
+> ✅ Tested on macOS, Linux, and Windows.  
 > Python 3.9 or above is recommended.
 
 1. **Clone the repository**:
