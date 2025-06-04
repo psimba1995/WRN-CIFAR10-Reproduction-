@@ -34,14 +34,59 @@ WRN-CIFAR10-Reproduction-/
 > ✅ Tested on macOS and Linux.  
 > Python 3.9 or above is recommended.
 
-### 1. Clone the repository
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/psimba1995/WRN-CIFAR10-Reproduction-.git
+   cd WRN-CIFAR10-Reproduction-
+   ```
 
-```bash
-git clone https://github.com/psimba1995/WRN-CIFAR10-Reproduction-.git
-cd WRN-CIFAR10-Reproduction-\
-```
+2. **Set up the Python environment**:
+   - It is recommended to use a virtual environment:
+     ```bash
+     python3.9 -m venv wrn_env
+     source wrn_env/bin/activate
+     ```
+   - Install all dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
+3. **Verify installation**:
+   - Ensure that all required libraries are installed and the Python version is correct:
+     ```bash
+     python --version
+     pip list
+     ```
 
+4. **Download CIFAR-10 dataset automatically**:
+   - The dataset will be downloaded automatically the first time the script is run via `torchvision`.
+
+---
+## 🚀 How to Run
+
+1. **Data Preprocessing**:
+   Run the first notebook to preprocess the CIFAR-10 dataset:
+   ```bash
+   jupyter notebook notebooks/01_data_preprocessing_cynthia.ipynb
+   ```
+
+2. **Model Building**:
+   Build the Wide Residual Network model by executing the second notebook:
+   ```bash
+   jupyter notebook notebooks/02_model_building_paida.ipynb
+   ```
+
+3. **Model Training**:
+   Train the WRN model on CIFAR-10 by running the training notebook:
+   ```bash
+   jupyter notebook notebooks/03_training_paida.ipynb
+   ```
+
+4. **Evaluate the Model**:
+   Evaluate the trained model and compare the results with the original paper:
+   ```bash
+   jupyter notebook notebooks/04_evaluation_zaid.ipynb
+   ```
 
 ## Expected Results
 

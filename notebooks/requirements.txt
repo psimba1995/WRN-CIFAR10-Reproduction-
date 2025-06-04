@@ -1,0 +1,25 @@
+# Basic Python requirements
+python==3.9
+
+# Machine learning and deep learning libraries
+torch==1.12.1       # For PyTorch
+torchvision==0.13.1 # For CIFAR-10 dataset and image transformations
+
+# Data manipulation and preprocessing
+numpy==1.23.1       # For numerical operations
+pandas==1.4.3       # For data manipulation
+scikit-learn==1.1.1 # For evaluation metrics and preprocessing
+
+# Visualization and plotting
+matplotlib==3.5.2   # For plotting graphs
+seaborn==0.11.2     # For enhanced data visualization
+
+# Jupyter notebooks
+notebook==6.4.12    # For running the `.ipynb` files
+
+# Reproducibility
+tqdm==4.64.0        # For progress bar visualization
+random==1.0.1       # For random number generation (if applicable)
+
+# Others (if required for model saving or additional functionality)
+pillow==9.2.0       # For image processing
